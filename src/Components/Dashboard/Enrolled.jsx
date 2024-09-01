@@ -25,7 +25,7 @@ const Enrolled = () => {
             course._id === updatedCourse._id ? updatedCourse : course
           )
         );
-        window.location.href = "/dashboard";
+        window.location.href = "/";
 
         alert(`Course "${updatedCourse.name}" has been completed!`);
       })
